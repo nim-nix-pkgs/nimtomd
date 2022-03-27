@@ -11,6 +11,7 @@
   inputs.src-nimtomd-v0_2_1.ref   = "refs/tags/v0.2.1";
   inputs.src-nimtomd-v0_2_1.owner = "ThomasTJdev";
   inputs.src-nimtomd-v0_2_1.repo  = "nimtomd";
+  inputs.src-nimtomd-v0_2_1.dir   = "";
   inputs.src-nimtomd-v0_2_1.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
