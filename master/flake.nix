@@ -11,7 +11,6 @@
   inputs.src-nimtomd-master.ref   = "refs/heads/master";
   inputs.src-nimtomd-master.owner = "ThomasTJdev";
   inputs.src-nimtomd-master.repo  = "nimtomd";
-  inputs.src-nimtomd-master.dir   = "";
   inputs.src-nimtomd-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
